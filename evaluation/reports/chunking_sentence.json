@@ -1,0 +1,125 @@
+{
+  "strategy": "sentence",
+  "top_k": 5,
+  "queries_evaluated": 5,
+  "results": [
+    {
+      "query_id": "Q1",
+      "query": "How far in advance should I cancel an appointment?",
+      "expected_documents": [
+        "cancellation_rescheduling"
+      ],
+      "retrieved_documents": [
+        "cancellation_rescheduling",
+        "appointment_booking",
+        "emergency_protocol",
+        "home_visits",
+        "follow_up_discount"
+      ],
+      "relevant_retrieved_documents": [
+        "cancellation_rescheduling"
+      ],
+      "precision_numerator": 1,
+      "precision_denominator": 5,
+      "precision": 0.2,
+      "recall_numerator": 1,
+      "recall_denominator": 1,
+      "recall": 1.0,
+      "top1_similarity": 0.75574791431427
+    },
+    {
+      "query_id": "Q2",
+      "query": "What is the consultation fee for cardiology?",
+      "expected_documents": [
+        "consultation_fees"
+      ],
+      "retrieved_documents": [
+        "consultation_fees",
+        "follow_up_discount",
+        "home_visits",
+        "telemedicine"
+      ],
+      "relevant_retrieved_documents": [
+        "consultation_fees"
+      ],
+      "precision_numerator": 1,
+      "precision_denominator": 4,
+      "precision": 0.25,
+      "recall_numerator": 1,
+      "recall_denominator": 1,
+      "recall": 1.0,
+      "top1_similarity": 0.7546671032905579
+    },
+    {
+      "query_id": "Q3",
+      "query": "What documents are needed for an insurance claim?",
+      "expected_documents": [
+        "insurance_claims"
+      ],
+      "retrieved_documents": [
+        "insurance_claims",
+        "second_opinion",
+        "patient_privacy"
+      ],
+      "relevant_retrieved_documents": [
+        "insurance_claims"
+      ],
+      "precision_numerator": 1,
+      "precision_denominator": 3,
+      "precision": 0.3333333333333333,
+      "recall_numerator": 1,
+      "recall_denominator": 1,
+      "recall": 1.0,
+      "top1_similarity": 0.6204134821891785
+    },
+    {
+      "query_id": "Q4",
+      "query": "How can I request a prescription refill?",
+      "expected_documents": [
+        "prescription_refills"
+      ],
+      "retrieved_documents": [
+        "prescription_refills",
+        "insurance_claims",
+        "home_visits",
+        "consultation_fees",
+        "appointment_booking"
+      ],
+      "relevant_retrieved_documents": [
+        "prescription_refills"
+      ],
+      "precision_numerator": 1,
+      "precision_denominator": 5,
+      "precision": 0.2,
+      "recall_numerator": 1,
+      "recall_denominator": 1,
+      "recall": 1.0,
+      "top1_similarity": 0.7724102735519409
+    },
+    {
+      "query_id": "Q5",
+      "query": "How long do laboratory results take?",
+      "expected_documents": [
+        "lab_turnaround"
+      ],
+      "retrieved_documents": [
+        "lab_turnaround",
+        "follow_up_discount",
+        "cancellation_rescheduling",
+        "consultation_fees"
+      ],
+      "relevant_retrieved_documents": [
+        "lab_turnaround"
+      ],
+      "precision_numerator": 1,
+      "precision_denominator": 4,
+      "precision": 0.25,
+      "recall_numerator": 1,
+      "recall_denominator": 1,
+      "recall": 1.0,
+      "top1_similarity": 0.7351255416870117
+    }
+  ],
+  "mean_precision": 0.24666666666666667,
+  "mean_recall": 1.0
+}

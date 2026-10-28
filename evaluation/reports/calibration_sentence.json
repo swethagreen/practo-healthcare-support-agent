@@ -1,0 +1,114 @@
+{
+  "strategy": "sentence",
+  "measurements": [
+    {
+      "id": "C1",
+      "query": "How far in advance should I cancel an appointment?",
+      "in_scope": true,
+      "top1_similarity": 0.75574791431427,
+      "retrieved_documents": [
+        "cancellation_rescheduling",
+        "appointment_booking",
+        "emergency_protocol",
+        "home_visits",
+        "follow_up_discount"
+      ]
+    },
+    {
+      "id": "C2",
+      "query": "What is the consultation fee for cardiology?",
+      "in_scope": true,
+      "top1_similarity": 0.7546671032905579,
+      "retrieved_documents": [
+        "consultation_fees",
+        "follow_up_discount",
+        "home_visits",
+        "telemedicine",
+        "follow_up_discount"
+      ]
+    },
+    {
+      "id": "C3",
+      "query": "What documents are needed for an insurance claim?",
+      "in_scope": true,
+      "top1_similarity": 0.6204134821891785,
+      "retrieved_documents": [
+        "insurance_claims",
+        "insurance_claims",
+        "second_opinion",
+        "patient_privacy",
+        "patient_privacy"
+      ]
+    },
+    {
+      "id": "C4",
+      "query": "How can I request a prescription refill?",
+      "in_scope": true,
+      "top1_similarity": 0.7724102735519409,
+      "retrieved_documents": [
+        "prescription_refills",
+        "insurance_claims",
+        "home_visits",
+        "consultation_fees",
+        "appointment_booking"
+      ]
+    },
+    {
+      "id": "C5",
+      "query": "How long do laboratory results take?",
+      "in_scope": true,
+      "top1_similarity": 0.7351255416870117,
+      "retrieved_documents": [
+        "lab_turnaround",
+        "lab_turnaround",
+        "follow_up_discount",
+        "cancellation_rescheduling",
+        "consultation_fees"
+      ]
+    },
+    {
+      "id": "C6",
+      "query": "Who won the latest international football tournament?",
+      "in_scope": false,
+      "top1_similarity": 0.06463193893432617,
+      "retrieved_documents": [
+        "lab_turnaround",
+        "insurance_claims",
+        "lab_turnaround",
+        "appointment_booking",
+        "cancellation_rescheduling"
+      ]
+    },
+    {
+      "id": "C7",
+      "query": "Explain how to build a rocket engine.",
+      "in_scope": false,
+      "top1_similarity": 0.04617947340011597,
+      "retrieved_documents": [
+        "requirements",
+        "lab_turnaround",
+        "prescription_refills",
+        "insurance_claims",
+        "second_opinion"
+      ]
+    },
+    {
+      "id": "C8",
+      "query": "What is the capital of Japan?",
+      "in_scope": false,
+      "top1_similarity": -0.023118972778320312,
+      "retrieved_documents": [
+        "prescription_refills",
+        "follow_up_discount",
+        "lab_turnaround",
+        "consultation_fees",
+        "cancellation_rescheduling"
+      ]
+    }
+  ],
+  "max_out_of_scope_similarity": 0.06463193893432617,
+  "min_in_scope_similarity": 0.6204134821891785,
+  "threshold": 0.3425227105617523,
+  "calibration_passed": true,
+  "message": "Threshold selected between the observed out-of-scope and in-scope score ranges."
+}

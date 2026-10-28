@@ -1,0 +1,10 @@
+{
+  "fixed": {
+    "mean_precision": 0.25666666666666665,
+    "mean_recall": 1.0
+  },
+  "sentence": {
+    "mean_precision": 0.24666666666666667,
+    "mean_recall": 1.0
+  }
+}

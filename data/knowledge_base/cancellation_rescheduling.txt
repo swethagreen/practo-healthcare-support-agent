@@ -1,0 +1,7 @@
+Cancellation and Rescheduling Policy
+
+Patients should request cancellations or rescheduling at least
+24 hours before the scheduled appointment. Requests made inside
+this window may be subject to the clinic's cancellation policy.
+A new appointment is confirmed only when the scheduling system
+records the updated booking.

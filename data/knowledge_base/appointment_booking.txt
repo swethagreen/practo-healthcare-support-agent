@@ -1,0 +1,7 @@
+Appointment Booking Policy
+
+Patients can request an appointment by selecting a specialty,
+clinic, date, and available time slot. An appointment
+is considered confirmed only after the booking system returns a
+successful confirmation. Patients should keep their appointment
+reference number for future inquiries about stauses
